@@ -3,7 +3,6 @@ import { questionBank } from "../data/questions";
 import QuizSelector from "../components/QuizSelector";
 import Quiz from "../components/Quiz";
 import { shuffle } from "../utils/shuffle";
-import '../styles/global.css';
 
 const Home: React.FC = () => {
   const [quizQuestions, setQuizQuestions] = useState<null | { questions: any[] }>(null);
