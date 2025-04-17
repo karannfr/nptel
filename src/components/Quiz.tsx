@@ -49,14 +49,14 @@ const Quiz: React.FC<Props> = ({ questions, onHome }) => {
 
   return (
     <main>
-      <QuizNavPanel
+      {/* <QuizNavPanel
         total={questions.length}
         current={current}
         markedForReview={markedForReview}
         answered={selected}
         onJump={handleJump}
         onMarkReview={handleMarkReview}
-      />
+      /> */}
       <section className="quiz-content">
         <h3>Question {current + 1} / {questions.length}</h3>
         <QuizQuestion

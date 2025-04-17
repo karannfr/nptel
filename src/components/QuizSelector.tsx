@@ -7,7 +7,7 @@ type Props = {
 };
 
 const QuizSelector: React.FC<Props> = ({ weeks, onSelect }) => (
-  <div>
+  <div className="selector">
     <button onClick={() => onSelect("full")}>Full Random Quiz</button>
     <h3>Or select a week:</h3>
     <select onChange={e => e.target.value && onSelect("week", Number(e.target.value))}>

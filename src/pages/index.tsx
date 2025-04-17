@@ -21,7 +21,7 @@ const Home: React.FC = () => {
 
   return (
     <main style={{ maxWidth: 600, margin: "0 auto" }}>
-      <h1>Forest Course Quiz</h1>
+      <h1>Forests and their Management</h1>
       {!quizQuestions ? (
         <QuizSelector weeks={questionBank} onSelect={handleSelect} />
       ) : (
